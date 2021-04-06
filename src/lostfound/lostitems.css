@@ -1,0 +1,78 @@
+.cards {
+    font: 1.1em arial, sans-serif;
+    width: 100%;
+    color: black !important;
+}
+
+.card-body hr{
+    border-bottom: 2px solid rgb(223, 217, 217);
+}
+
+.lostfound .card-body{
+    padding: 0 1.25rem 0;
+}
+
+.redfont {
+    color: red;
+}
+
+.greenfont {
+    color: green;
+}
+
+.info {
+    font:bold 1.1em Arial, sans-serif;
+    color: rgb(15, 15, 15);
+}
+.card-text {
+    color: black !important;
+}
+.card-body img {
+    float: right;
+    position: relative;
+    top: 0;
+    height: 130px;
+    display: block;
+}
+
+.fade {
+    background-color: rgba(0, 0, 0, 0.25) ;
+}
+
+.contact {
+    font: 1.1em arial;
+    color: rgb(18, 84, 128);
+}
+
+.top-buttons {
+    border: solid ;
+    border-width: 0 2px;
+}
+
+.activated {
+    background-color: #ffffff;
+    font-size: 1.1em;
+    padding: auto 0px !important;
+    color: rgb(18, 77, 153);
+    font-weight: bold;
+    padding: auto 0;
+    box-shadow: 0;
+}
+
+
+@media screen and (max-width: 400px) {
+    .top-buttons {
+        padding: 7px 0;
+        font-size: 0.8em;
+    }
+    .activated {
+        padding: 7px 0 !important;
+    font-size: 0.8em;
+    }
+    .lostfound .card-body img {
+        float: none;
+    }
+    .lostfound .card-body {
+        padding: 1rem 0.5rem;
+    }
+  }

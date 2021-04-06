@@ -1,0 +1,41 @@
+.light {
+    color: rgb(107, 103, 103);
+    font-size: 0.9em;
+}
+
+.modal-dialog {
+  margin-top: 55px;
+}
+
+.lf-modal .modal-content {
+  background-color: rgb(80, 168, 80);
+}
+
+#example-modal-sizes-title-sm {
+  font-size: 1.2em;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.lf-modal button {
+  color: black;
+  opacity: 1;
+}
+
+.top-buttons {
+    border: solid ;
+    border-width: 0 2px;
+}
+
+.lostfound .form {
+  background-image: url("rajput.jpg");
+  background-repeat: no-repeat;
+  /* background-size: 50%; */
+  background-position: 45% 5%;
+}
+
+.lostfound_submit button:hover {
+  background-color: rgb(45, 131, 189) !important;
+  color: white   !important;
+  font-weight: bold;
+}

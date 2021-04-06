@@ -1,0 +1,199 @@
+.btn-space {
+  margin-right: 5px;
+}
+
+.navbar {
+  transition: 0.5s;
+}
+
+.nav-link {
+  color: white !important;
+  letter-spacing: 1px;
+}
+
+.scroll {
+  background-color: #f1f1f1;
+}
+
+.nav_items a.login{
+  margin: auto 0 auto 10px !important;
+  border: 2px solid #ffffff;
+  padding: 2px 6px !important;
+}
+
+.nav_items a.name{
+  margin: auto 0 auto 10px !important;
+  padding: 2px 6px !important;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.navbar .dropdown-menu a:hover, .navbar .dropdown-menu a:active{
+  color: rgb(12, 102, 187) !important;
+}
+
+.width { 
+  height: 50px !important;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2000;
+  margin: 0px;
+}
+
+#bars_container {
+  /* position: absolute; */
+  /* display: inline-block; */
+  cursor: pointer;
+  margin-right: 15px;
+  /* left: 15px; */
+  /* top: 3px; */
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav {
+  line-height: normal !important;
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  transition: 0.5s;
+  padding-top: 20px;
+}
+
+.sidenav a,
+.sidenav span {
+  padding: 5px 2px 5px 32px !important;
+  text-decoration: none;
+  font-size: 1.3em;
+  color: #b1abab ;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a {
+  border: 3px solid rgb(22, 159, 238, 0.9);
+  margin: 15px 10px;
+}
+
+.sidenav a:hover, .sidenav .ui .title:active,
+.sidenav span:hover, .sidenav .ui .title:hover,
+.sidenav .ui .content a:hover, .sidenav .ui .content a:hover {
+  color: #ffffff !important;
+  border: 4px solid rgb(212, 129, 33);
+}
+
+
+.sidenav .ui {
+  color: #ffffff !important;
+  background-color: transparent !important;
+  min-height: 0;
+}
+
+.sidenav .ui .title{
+  font-size: 1.3em !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #b1abab !important;
+  transition: 0.3s !important;
+  border: none !important;
+}
+
+.sidenav .ui .item{
+  margin: 0 !important;
+  color: #b1abab !important;
+  padding: 0 !important;
+}
+
+.sidenav .ui .item .content{
+  border: none !important;
+  margin: -10px 0 !important;
+  font-size: 1.3em !important;
+}
+
+.sidenav .ui .item .content a{
+  /* margin: 0 !important; */
+  padding: 0 !important;
+  border: none !important;
+  font-size: 1em !important;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+.navbar .name_on_navbar{
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 3px 0 0 1em;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+  
+}
+
+
+@media screen and (max-width: 1010px) {
+  .nav_hide {
+    display: none;
+  }
+  
+}
+
+@media screen and (min-width: 1010px) {
+  #bars_container {
+    display: none;
+  }
+}
